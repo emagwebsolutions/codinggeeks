@@ -1,0 +1,12 @@
+@import '../../sass/config';
+body{
+    background-color: default($opacity: 1);
+}
+
+.App{
+    max-width: 35rem;
+    background-color: white();
+    margin-inline: auto;
+    box-shadow: 0 0 1rem muted(.4);
+    padding: 2em;
+}
