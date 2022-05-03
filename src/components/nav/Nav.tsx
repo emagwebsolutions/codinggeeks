@@ -25,9 +25,6 @@ const Nav = ()=>{
         }
     }
 
-
-
-
     useEffect(() => {
         const onclick = (ev: any) => {
             if(ev.target.matches('nav')){
@@ -45,12 +42,7 @@ const Nav = ()=>{
 
     return (
         <> 
-        <section className="nav-section">
-        <span>Call us now on: <a href="tel:+233576705880">+233 57 670 5880</a></span>
-        <span>Email us: info@unakreations.com</span> 
-        </section>
-
-        <Hamburgeropen opennav = {opennav}  name="U & A Creation" />
+        <Hamburgeropen opennav = {opennav}  name="" />
 
         <nav data-nav="false" ref={nav} className="nav">
             <div className="nav-wrapper">
@@ -58,74 +50,48 @@ const Nav = ()=>{
             <Hamburgerclose closenav = {closenav}  />
 
             <div className="logo">
-                <img src="./images/logo.jpg" alt="Logo" />
+                <img src="./images/logo.png" alt="Logo" />
             </div>
             <ul>
                 <li className="active">
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/#">About Us</Link>
-                        <ul>
-                            <li>
-                            <Link to="/team">Our Team</Link>
-                            </li>
-                            <li>
-                            <Link to="/careers">Careers</Link>
-                            </li>
-                            <li>
-                            <Link to="/testimonials">Testimonials</Link>
-                            </li>
-                        </ul>
+                    <Link to="/#">Web Design FAQ</Link>
                 </li>
                 <li>
-                    <Link to="/#">Services</Link>
-                    <ul>
-                        <li>
-                            <Link to="/klodin">U&A Klodin</Link>
-                        </li>
-                        <li>
-                            <Link to="/album">U&A Album</Link>
-                        </li>
-                        <li>
-                            <Link to="/grafix">U&A GRAFIX</Link>
-                        </li>
-                        <li>
-                            <Link to="/photocopy">Photocopy</Link>
-                        </li>
-                        <li>
-                            <Link to="/advertising">Advertising</Link>
-                        </li>
-                        <li>
-                            <Link to="/printing">Printing</Link>
-                        </li>
-                        <li>
-                            <Link to="/training">Training</Link>
-                        </li>
-                        <li>
-                            <Link to="/administrative">Administrative Services</Link>
-                        </li>
-                    </ul>
+                    <Link to="/#">Getting Started</Link>
                 </li>
                 <li>
-                    <Link to="/#">Portfolio</Link>
-                    <ul>
-                        <li>
-                            <Link to="/branding">Branding</Link>
-                        </li>
-                        <li>
-                            <Link to="/gallery">Gallery</Link>
-                        </li>
-                    </ul>
+                    <Link to="/#">Introduction to HTML</Link>
                 </li>
                 <li>
-                    <Link to="/contact">Contact Us</Link>
+                    <Link to="/contact">Working with IMAGES</Link>
+                </li>
+
+                <li>
+                    <Link to="/blog">Adding links to a web page</Link>
                 </li>
                 <li>
-                    <Link to="/blog">Blog</Link>
+                    <Link to="/blog">Styling a web page</Link>
                 </li>
-                <li className="request-btn">
-                    <Link to="/">Request a free quote</Link>
+                <li>
+                    <Link to="/blog">Introduction to CSS Box Model</Link>
+                </li>
+                <li>
+                    <Link to="/blog">Css selectors</Link>
+                </li>
+                <li>
+                    <Link to="/blog">Css layout design</Link>
+                </li>
+
+
+
+                <li className="donate">
+                    <Link to="/">DONATE</Link>
+                </li>
+                <li className="donate">
+                    <Link to="/">Become a Patron</Link>
                 </li>
             </ul>
 

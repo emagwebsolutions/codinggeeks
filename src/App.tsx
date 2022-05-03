@@ -1,6 +1,7 @@
 import React, { Suspense,lazy } from 'react';
 import { Route,Routes,HashRouter } from 'react-router-dom'
 import ErrorBoundary from './components/ErrorBoundary'
+import './sass/reset.scss'
 
 const Footer = lazy( () => import('./components/footer/Footer') )
 const Nav = lazy( () => import('./components/nav/Nav') )
