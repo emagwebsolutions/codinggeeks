@@ -23,6 +23,7 @@ function App() {
           <HashRouter>
             <Suspense fallback={(<PageLoader />)}>
                 <Nav />
+
                 <Routes>
                   <Route path="/" element={<Home />} />
                 </Routes>
