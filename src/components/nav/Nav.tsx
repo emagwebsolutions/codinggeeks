@@ -87,10 +87,10 @@ const Nav = ()=>{
 
 
 
-                <li className="donate">
-                    <Link to="/">DONATE</Link>
+                <li className="bg-danger donate">
+                    <a href="https://wa.me/233246845285?text=I%20want%20to%20make%20a%20donation%20to%20support%20Coding%20Geeks">DONATE</a>
                 </li>
-                <li className="donate">
+                <li className="bg-primary donate">
                     <Link to="/">Become a Patron</Link>
                 </li>
             </ul>
