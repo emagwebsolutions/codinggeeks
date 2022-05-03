@@ -5,6 +5,7 @@ import React, { useRef,useEffect } from 'react'
 import './nav.scss'
 
 
+
 const Nav = ()=>{
 
     const nav = useRef<HTMLElement>(null)
@@ -50,7 +51,7 @@ const Nav = ()=>{
             <Hamburgerclose closenav = {closenav}  />
 
             <div className="logo">
-                <img src="./images/logo.png" alt="Logo" />
+                <img src={process.env.PUBLIC_URL+'/images/logo.png'} alt="Logo" />
             </div>
             <ul>
                 <li className="active">
@@ -85,13 +86,13 @@ const Nav = ()=>{
                     <Link to="/blog">Css layout design</Link>
                 </li>
 
-
+                
 
                 <li className="bg-danger donate">
                     <a href="https://wa.me/233246845285?text=I%20want%20to%20make%20a%20donation%20to%20support%20Coding%20Geeks">DONATE</a>
                 </li>
                 <li className="bg-primary donate">
-                    <Link to="/">Become a Patron</Link>
+                    <a href="https://wa.me/233246845285?How%20do%20I%20become%20a%20patron%20and%20what%20are%20the%20benifits%3F">Become a Patron</a>
                 </li>
             </ul>
 
