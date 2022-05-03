@@ -51,7 +51,7 @@ const Nav = ()=>{
             <Hamburgerclose closenav = {closenav}  />
 
             <div className="logo">
-                <img src={process.env.PUBLIC_URL+'/images/logo.png'} alt="Logo" />
+                <img src="/images/logo.png" alt="Logo" />
             </div>
             <ul>
                 <li className="active">
