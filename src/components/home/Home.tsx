@@ -40,7 +40,7 @@ const Home = ()=>{
                 </li>
             </ol>
 
-            <NextButton url="about" />
+            <NextButton url="faq" />
 
 
         </section>

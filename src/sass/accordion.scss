@@ -1,10 +1,19 @@
 @import 'config.scss';
 
 .accordion{
+  background-color: #f0ebe1;
   .accordion-top{
-
+    padding: 1em;
   }
   .accordion-bottom{
-    
+    padding: 1em;
+  }
+  h4{
+    color: #85662b;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  p{
+    font-size: 1.4rem!important;
   }
 }

@@ -7,6 +7,7 @@ import './sass/utils.scss'
 const Footer = lazy( () => import('./components/footer/Footer') )
 const Nav = lazy( () => import('./components/nav/Nav') )
 const Home = lazy( () => import('./components/home/Home') )
+const Faq = lazy( () => import('./components/faq/Faq') )
 
 const PageLoader = () => {
     return (
@@ -26,6 +27,7 @@ function App() {
 
                 <Routes>
                   <Route path="/" element={<Home />} />
+                  <Route path="/faq" element={<Faq />} />
                 </Routes>
                 <Footer />
             </Suspense>

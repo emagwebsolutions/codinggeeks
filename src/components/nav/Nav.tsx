@@ -58,13 +58,13 @@ const Nav = ()=>{
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/#">Web Design FAQ</Link>
+                    <Link to="/faq">Web Design FAQ</Link>
                 </li>
                 <li>
-                    <Link to="/#">Getting Started</Link>
+                    <Link to="/dd">Getting Started</Link>
                 </li>
                 <li>
-                    <Link to="/#">Introduction to HTML</Link>
+                    <Link to="/dd">Introduction to HTML</Link>
                 </li>
                 <li>
                     <Link to="/contact">Working with IMAGES</Link>
