@@ -1,9 +1,9 @@
 
-import './home.scss'
-import NextButton from '../nextbutton/NextButton'
-import Title from '../title/Title'
+import './setup.scss'
+import NextButton from '../../nextbutton/NextButton'
+import Title from '../../title/Title'
 
-const Home = ()=>{
+const Setup = ()=>{
     
     return (
         <section>
@@ -47,4 +47,4 @@ const Home = ()=>{
     )
 } 
 
-export default Home
+export default Setup

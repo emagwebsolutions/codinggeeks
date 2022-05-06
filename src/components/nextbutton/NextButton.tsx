@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom'
 
 
 const NextButton = ({ url }: { url: string} ) => {
-    return (
 
-        <button className="nextButton">
-            <Link to={`/${url}`} >Next <i className="fa fa-arrow-right fa-lg"></i></Link>  
-        </button>
+    return (
+        <Link to={`/${url}`} className="nextButton" > 
+            Next <i className="fa fa-arrow-right fa-lg"></i> 
+        </Link> 
     )
+
 }
 
 export default NextButton

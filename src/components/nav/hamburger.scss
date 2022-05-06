@@ -33,8 +33,14 @@ nav{
                     font-size: 1.4rem;
                     font-weight: bold;
                     color: #581186;
+                    display: flex; 
+                    gap: 1rem;
                     &:hover{
                         color: #1a8eba;
+                    }
+                    .fa{
+                        font-size: 1.4rem;
+                        padding-top: .3em;
                     }
                 }
 
@@ -91,9 +97,9 @@ nav{
     transform: translateX(-27%) translateY(-8%);
 }
 .hamburgeropen{
-    width: 40rem;
+    width: 37rem;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-53%) translateY(-1%);
     background-color: white();
 }
 .hamburgerclose,

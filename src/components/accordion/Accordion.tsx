@@ -18,7 +18,7 @@ const Accordion = ( { data }: accordionData ) => {
 
     }
 
-    const html = ( v: accordionDataValues, k: number ) => (
+    const fn = ( v: accordionDataValues, k: number ) => (
 
         <div className="accordion" key={k}>
             <div className="accordion-top flex space-between" onClick={() => checkAccordionIndex( k ) }>
@@ -31,7 +31,7 @@ const Accordion = ( { data }: accordionData ) => {
 
     )
 
-    const res = MapFunc( html )( data ) 
+    const res = MapFunc( fn )( data ) 
 
     return (
         <>
