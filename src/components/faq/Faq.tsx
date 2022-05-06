@@ -1,9 +1,11 @@
-import Accordion from '../Accordion'
-import Title from '../Title'
-import NextButton from '../NextButton'
+import Accordion from '../accordion/Accordion'
+import Title from '../title/Title'
+import NextButton from '../nextbutton/NextButton'
 import FaqData from '../data/FaqData'
 
+
 const Faq = () => {
+
     return (
         <section>
             <Title heading=" WEB DESIGN FAQ" />
@@ -11,6 +13,7 @@ const Faq = () => {
             <NextButton url="home" />
         </section>
     )
+
 }
 
 export default Faq

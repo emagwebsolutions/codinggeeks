@@ -1,7 +1,7 @@
 
 import './home.scss'
-import NextButton from '../NextButton'
-import Title from '../Title'
+import NextButton from '../nextbutton/NextButton'
+import Title from '../title/Title'
 
 const Home = ()=>{
     

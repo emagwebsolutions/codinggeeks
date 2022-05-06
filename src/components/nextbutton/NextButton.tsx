@@ -1,4 +1,4 @@
-import '../sass/nextbutton.scss';
+import './nextbutton.scss';
 import { Link } from 'react-router-dom'
 
 

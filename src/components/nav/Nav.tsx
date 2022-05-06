@@ -86,13 +86,28 @@ const Nav = ()=>{
                     <Link to="/blog">Css layout design</Link>
                 </li>
 
+                <li>
+                    <Link to="/blog">Javascript Beginners Guide</Link>
+                </li>
+
+                <li>
+                    <Link to="/blog">PHP Beginners Guide</Link>
+                </li>
+
+                <li>
+                <i className="fa-li fa fa-check-square"></i> <Link to="/blog">Blog</Link>
+                </li>
+                <li>
+                    <Link to="/blog">Resources</Link>
+                </li>
+
                 
 
                 <li className="bg-danger donate">
                     <a href="https://wa.me/233246845285?text=I%20want%20to%20make%20a%20donation%20to%20support%20Coding%20Geeks">DONATE</a>
                 </li>
                 <li className="bg-primary donate">
-                    <a href="https://wa.me/233246845285?How%20do%20I%20become%20a%20patron%20and%20what%20are%20the%20benifits%3F">Become a Patron</a>
+                    <a href="Hello%20how%20do%20I%20become%20a%20patron%20and%20what%20are%20the%20benefits%3F">Become a Patron</a>
                 </li>
             </ul>
 

@@ -1,4 +1,4 @@
-import '../sass/title.scss';
+import './title.scss';
 
 
 const Title = ( { heading }: { heading: string }) => {
