@@ -1,13 +1,13 @@
 import Accordion from '../Accordion'
 import Title from '../Title'
 import NextButton from '../NextButton'
+import FaqData from '../data/FaqData'
 
 const Faq = () => {
     return (
         <section>
             <Title heading=" WEB DESIGN FAQ" />
-            <Accordion heading="What is a website?" message="This is the accordion message" />
-
+            <Accordion data={ FaqData } />
             <NextButton url="home" />
         </section>
     )

@@ -2,18 +2,26 @@
 
 .accordion{
   background-color: #f0ebe1;
+  margin-bottom: 1.2em;
+  border-radius: 1.2rem;
+  box-shadow: .5rem .5rem 1rem muted(.4);
   .accordion-top{
-    padding: 1em;
+    padding: 1em 0 1em 1em;
+    h4{
+      color: #85662b;
+      font-size: 1.8rem;
+      text-align: center!important;
+    }
+   
   }
   .accordion-bottom{
     padding: 1em;
-  }
-  h4{
-    color: #85662b;
-    font-size: 1.8rem;
-    text-align: center;
-  }
-  p{
     font-size: 1.4rem!important;
+    max-height: 0;
+    visibility: hidden;
+  }
+
+  span{
+    font-size: 2rem;
   }
 }

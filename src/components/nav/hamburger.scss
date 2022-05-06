@@ -9,7 +9,7 @@ nav{
     height: 100vh;
     z-index: 8;
     .nav-wrapper{
-         position: absolute;
+         position: fixed;
          background-color: #fff;
          top: 0;
          left: 0;
@@ -27,10 +27,10 @@ nav{
          & > ul{
 
             & > li{
-                margin-bottom: 2rem;
+                margin-bottom: 1rem;
                 position: relative;
                 & > a{
-                    font-size: 1.6rem;
+                    font-size: 1.4rem;
                     font-weight: bold;
                     color: #581186;
                     &:hover{
@@ -87,20 +87,22 @@ nav{
 }
 
 .hamburgerclose{
-    width: 80%;
+    width: 30%; 
+    transform: translateX(-27%) translateY(-8%);
 }
 .hamburgeropen{
-    width: 100%;
+    width: 40rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white();
 }
 .hamburgerclose,
 .hamburgeropen{
     cursor: pointer;
-    position: absolute;
-    background-color: white;
-    left: 0;
+    position: fixed;
     top: 0;
     z-index: 8;
-    margin: 3rem;
+    padding: 3rem;
     display: block!important;
 
     .hamburger-inner{
@@ -144,10 +146,10 @@ nav{
 
 .donate{
     border-radius: 11rem;
-    padding: .5em;
+    padding: .3em;
     text-align: center;
     a{
         color: white()!important;
-        font-size: 1.4rem!important;
+        font-size: 1.2rem!important;
     }
 }
