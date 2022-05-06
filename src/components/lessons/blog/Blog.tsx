@@ -13,12 +13,12 @@ const Resources = () => {
         return (
             <div className="blog" key={ k }>
                 <picture>
-                    <img src="" alt={v.name} />
+                    <img src={v.image} alt={v.name} />
                 </picture>
                 <div>
-                    <h4> <i className="fa fa-book fa-lg"></i> { v.name }</h4>
+                    <h4> <i className="fa fa-laptop fa-lg"></i> { v.name }</h4>
                     <p> <i className="fa fa-map-marker fa-lg"></i>  { v.venue }</p>
-                    <div> <i className="fa fa-calendar fa-lg"></i>  {v.date} </div>
+                    <div className="date"> <i className="fa fa-calendar fa-lg"></i>  {v.date} </div>
                 </div>
             </div>
         )
@@ -29,7 +29,7 @@ const Resources = () => {
 
     return (
         <section>
-        <Title heading="Resources" />
+        <Title heading="Our Blog" />
         { mapfunc }
         <NextButton url="" />
         </section>
