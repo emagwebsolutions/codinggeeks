@@ -107,7 +107,7 @@ const Nav = ()=>{
                     <a href="https://wa.me/233246845285?text=I%20want%20to%20make%20a%20donation%20to%20support%20Coding%20Geeks">DONATE</a>
                 </li>
                 <li className="bg-primary donate">
-                    <a href="Hello%20how%20do%20I%20become%20a%20patron%20and%20what%20are%20the%20benefits%3F">Become a Patron</a>
+                    <a href="https://wa.me/233246845285?text=Hello%20how%20do%20I%20become%20a%20patron%20and%20what%20are%20the%20benefits%3F">Become a Patron</a>
                 </li>
             </ul>
 
