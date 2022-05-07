@@ -20,7 +20,7 @@ const Setup = ()=>{
                 </ul>
                 </li>
                 <li>
-                Install VSCode test editor 
+                Install VSCode text editor 
                 <ul>
                     <li>
                         <a href="https://support.academicsoftware.eu/hc/en-us/articles/360006916138-How-to-install-Microsoft-Visual-Studio-Code" title="VSCode Installation">How to install VSCode</a>
@@ -30,6 +30,7 @@ const Setup = ()=>{
                     </li>
                 </ul>
                 </li>
+                
                 <li>
                 VSCode Tutorials
                 <ul>
