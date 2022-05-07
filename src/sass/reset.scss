@@ -1,3 +1,5 @@
+@import './config';
+
 :root{
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -93,5 +95,45 @@
     align-items: center;
     height: 100vh;
     color: #ccc;
+  }
+
+  .para{
+    h2{
+      font-size: 2.3rem;
+      text-transform: uppercase;
+      text-align: center;
+      color: black(.9);
+    }
+    h4{
+      font-size: 1.8rem;
+      text-transform: uppercase;
+      text-align: center;
+      color: black(.9);
+      margin-top: 3em;
+    }
+    p{
+      font-size: 1.6rem;
+      color: muted();
+      text-align: justify;
+    }
+    picture{
+      margin-bottom: 3em;
+      display: block;
+    }
+    ol{
+      margin-left: .5em;
+      padding-left: .5em;
+    }
+    .exercise{
+      background-color: muted();
+      color: white();
+      padding: 2em;
+      text-align: justify;
+      h4{
+        margin-top: 0!important;
+        font-size: 2rem;
+        color: white();
+      }
+    }
   }
 
