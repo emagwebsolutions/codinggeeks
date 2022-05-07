@@ -58,7 +58,7 @@ const Gettingstarted = () => {
             </ol>
 
             <picture>
-                <img src="images/folder.PNG" alt="Creating Folders" />
+                <img src="https://www.isunshare.com/images/article/windows-8/create-open-and-delete-a-folder-using-command-prompt/create-a-folder-from-context-menu.png" alt="Creating Folders" />
             </picture>
 
 
@@ -80,7 +80,7 @@ const Gettingstarted = () => {
             </ol>
 
             <picture>
-                <img src="images/rename-folder.PNG" alt="Creating Folders" />
+                <img src="https://ugetfix.com/wp-content/uploads/articles/askit/cant-rename-folders-windows-10_en.png.webp" alt="Rename Folders" />
             </picture>
 
 
