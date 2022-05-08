@@ -5,6 +5,47 @@
   This project is about building a learning platform to help those who want to learn web development for the first time it's purely a mobile web application which means even if you view it in a browser it will still display in a mobile format.
 </p>
 
+
+
+
+
+
+
+
+
+
+<h3 align="left">Languages and Tools:</h3>
+
+<p> 
+
+<a href="https://reactjs.org/" target="_blank"  align="left"> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" width="40" height="40"/> 
+ </a> 
+&nbsp;
+<a href="https://node.org/" target="_blank"  align="left"> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node" width="40" height="40" />
+</a> 
+&nbsp;
+<a href="https://typescript.com/" target="_blank"  align="left"> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript" width="40" height="40" />
+ </a> 
+&nbsp;
+
+<a href="https://sass-lang.com/" target="_blank" align="left"> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass" width="40" height="40" />
+  </a> 
+ </p>
+
+
+
+
+
+
+
+
+
+
+
 #### INSTALLATION
 **To install follow the these steps:**
 1. Install <a href="https://nodejs.org/en/download/" target="_blank" title="Node Installation">NODE</a> on your computer 
