@@ -2,14 +2,12 @@
 
 
 
-<a href="http://codinggeeks.herokuapp.com/" target="_blank">**VIEW APP**</a>
-
-
-
 #### DESCRIPTION
 <p>
   This project is about building a learning platform to help those who want to learn web development for the first time it's purely a mobile web application which means even if you view it in a browser it will still display in a mobile format.
 </p>
+
+<a href="http://codinggeeks.herokuapp.com/" target="_blank">**VIEW APP**</a>
 
 
 
