@@ -2,7 +2,7 @@
 
 
 
-<a href="http://codinggeeks.herokuapp.com/" target="_blank">VISIT APP</a>
+<a href="http://codinggeeks.herokuapp.com/" target="_blank">**VIEW APP**</a>
 
 
 
