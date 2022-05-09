@@ -46,7 +46,7 @@ To use this App click on the menu icon and click on the menu items to display a 
 
 #### CONTRIBUTING
 
-You are free to send **PULL REQUEST** we would be glad to respond to your **PULL REQUEST** but raise an issue first and tell us more about the specific changes you want to make before you send your **PULL REQUEST**
+You are free to send **PULL REQUEST** we would be glad to respond to your **PULL REQUEST** but raise an issue first and tell us more about the specific changes you want to make before you send your **PULL REQUEST**.
 
 #### LICENSE
 
