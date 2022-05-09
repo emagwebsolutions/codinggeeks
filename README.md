@@ -32,7 +32,7 @@
 
 #### INSTALLATION
 
-**To install follow the these steps:**
+**To install follow these steps:**
 
 1. Install <a href="https://nodejs.org/en/download/" target="_blank" title="Node Installation">NODE</a> on your computer
 2. Install <a href="https://code.visualstudio.com/download" title="VSCode Installation">VSCode</a> on your computer
