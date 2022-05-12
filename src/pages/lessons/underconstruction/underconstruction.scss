@@ -1,0 +1,13 @@
+@import '../../../sass/config';
+.underconst{
+    width: 30rem;
+    padding: 2em;
+    background-color: default();
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block: 3em;
+    margin-inline: auto;
+    color: muted();
+}
